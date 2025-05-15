@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f8f9fa;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  .hero {
+    background: url('/images/kitesurf-hero.jpg') no-repeat center center/cover;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e63946;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #1d3557;
+  }
+  
+  .pakket {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #457b9d;
+    border-radius: 6px;
+  }
+
+  .hero-slider {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide.active {
+    display: flex;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .reservation-form {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.reservation-form h1 {
+  margin-bottom: 10px;
+  color: #1d3557;
+}
+
+.reservation-form p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reservation-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.reservation-form input,
+.reservation-form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.reservation-form .btn {
+  width: 100%;
+  background-color: #1d3557;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.reservation-form .btn:hover {
+  background-color: #457b9d;
+}
